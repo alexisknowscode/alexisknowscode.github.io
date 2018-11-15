@@ -1,0 +1,56 @@
+.funkytext {
+    font-family: 'Permanent Marker',cursive;
+    text-align:center;
+    
+}
+blockquote {
+ text-align:center;
+ font-family: 'Indie Flower';
+ padding-top:20px;
+}
+
+#center {
+  text-align:center;/*Why cant i align pic inline with align="center" and why can't i add a border to the photo???*/
+} 
+
+a:link {
+	font-weight: bold;
+	color: #FF933A;
+}
+a:visited {
+	font-weight: bold;
+	color: #FF6366;
+}
+a:hover {
+	color: #48D1CC;
+	text-decoration: none;
+}
+body {
+  background-image: url("https://preview.ibb.co/hRnwjF/exhibition.jpg");
+  background-size:cover;
+  }
+
+
+/*DIV STYLES FOR PAGE LAYOUT*/
+.container {
+  width:80%;
+  margin: 0 auto;
+  border: 10px solid #F4B800; 
+  background-color: #fff;
+  overflow:hidden;
+  font-family: 'Indie Flower', cursive;
+  font-size:1.2em;
+  
+}
+
+#header {
+  padding-top:20px;
+  padding-bottom:5px;
+}
+#timeline {
+      font-family: 'Permanent Marker',cursive;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+  
+}
